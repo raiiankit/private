@@ -41,6 +41,8 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <nav>navbar</nav>
+        <aside>Dashboard Accordion</aside>
       {layout} {/* ✅ Correctly render JSX instead of a string */}
     </body>
     </html>
